@@ -742,7 +742,7 @@ p {
  .treade_sell_main{
     width: 95%;
     /* height: 100vh; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
  }
 
@@ -751,24 +751,53 @@ p {
  } */
  .ts_title{
         /* height: 30vh; */
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         padding: 10px;
     }
 
-.treade_steps{
-    /* height: 100vh; */
+/* .treade_steps{
+    
     border: 1px solid black;
-}
+} */
 
 .treade_steps_cont{
     /* width: 95%; */
     /* height: 100vh; */
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .steps_cont div{
     width: 95%;
     height: 200px;
     border: 1px solid;
     margin: auto;
+}
+
+/* treade steps content */
+.treade_steps_content{
+    width: 80%;
+
+}
+.treade_steps_content div{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media (min-width:768px) {
+   
+    .treade_steps_content{
+    width: 100%;
+
+}
+}
+
+/* accepted brands */
+.accepted_brands div{
+    
+    height: 60px;
+    width: 40px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
 }
