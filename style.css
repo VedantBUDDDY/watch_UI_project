@@ -158,21 +158,33 @@ button {
 
 .tranding_brands {
     background-color: white;
+     margin: auto;
 }
 
 .card-viewport {
-    width: 90%;
-    height: auto;
+    width: 100%;
+    /* height: 200px; */
     margin: auto;
     border: 1px solid black;
 }
-
-.card {
+.watch_brands{
     width: 100%;
-    height: 300px;
+    margin: auto;
+    
 }
 
-.img1 {
+@media (max-width:360px) {
+  .watch_brands>div  /*margin the col container */
+{
+    margin: auto;
+}
+}
+/* .card {
+    width: 100%;
+    height: 300px;
+} */
+
+/* .img1 {
     background-image: url("assets/images/4537-R-1.jpg");
     background-size: cover;
 }
@@ -200,15 +212,15 @@ button {
 .img6 {
     background-image: url("assets/images/ORG_012e_copy_l.jpeg");
     background-size: cover;
-}
+} */
 
-.card-viewport+div {
+/* .card-viewport+div {
     width: 80%;
     margin: 5px;
     padding: 10px;
-}
+} */
 
-#main_card div {
+/* #main_card div {
     transition: 1s 0.3s ease-in;
 
 }
@@ -216,15 +228,15 @@ button {
 #main_card div:hover {
     transform: scale(1.03, 1.03);
     box-shadow: -1px 2px 39px 8px rgba(0, 0, 0, 0.35);
-}
+} */
 
-.B-name {
+/* .B-name {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
+} */
 
-@media (min-width:1024px) {
+/* @media (min-width:1024px) {
     .card {
         height: 500px;
     }
@@ -233,7 +245,7 @@ button {
         width: 95%;
     }
 
-}
+} */
 
 /* Why Buy From Us */
 
