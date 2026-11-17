@@ -154,6 +154,21 @@ button {
     display: flex;
 }
 
+@media (min-width:1024px) {
+    .poster {
+    padding: 15px;
+    margin: auto;
+    border: 2px solid darkgreen;
+    background-color: aquamarine;
+}
+
+.poster1 {
+    width: 100%;
+    height: 90%;
+    padding-bottom: 15px;
+}
+}
+
 /* Tranding_brands sections*/
 
 .tranding_brands {
@@ -173,7 +188,7 @@ button {
     
 }
 
-@media (max-width:360px) {
+@media (min-width:360px) {
   .watch_brands>div  /*margin the col container */
 {
     margin: auto;
@@ -393,7 +408,7 @@ p {
     }
 
     .provide-items-right {
-        width: 60%;
+        /* width: 60%; */
         /* height: 100vh; */
         /* border: 1px solid black; */
     }
@@ -403,8 +418,9 @@ p {
     }
 
     .pir img {
+        width: 90% !important;
         bottom: 15px;
-        right: 6px;
+        right: 14px;
         width: 244px;
     }
 
