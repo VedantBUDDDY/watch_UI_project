@@ -156,24 +156,24 @@ button {
 
 @media (min-width:1024px) {
     .poster {
-    padding: 15px;
-    margin: auto;
-    border: 2px solid darkgreen;
-    background-color: aquamarine;
-}
+        padding: 15px;
+        margin: auto;
+        border: 2px solid darkgreen;
+        background-color: aquamarine;
+    }
 
-.poster1 {
-    width: 100%;
-    height: 90%;
-    padding-bottom: 15px;
-}
+    .poster1 {
+        width: 100%;
+        height: 90%;
+        padding-bottom: 15px;
+    }
 }
 
 /* Tranding_brands sections*/
 
 .tranding_brands {
     background-color: white;
-     margin: auto;
+    margin: auto;
 }
 
 .card-viewport {
@@ -182,18 +182,22 @@ button {
     margin: auto;
     border: 1px solid black;
 }
-.watch_brands{
+
+.watch_brands {
     width: 100%;
     margin: auto;
-    
+
 }
 
 @media (min-width:360px) {
-  .watch_brands>div  /*margin the col container */
-{
-    margin: auto;
+    .watch_brands>div
+
+    /*margin the col container */
+        {
+        margin: auto;
+    }
 }
-}
+
 /* .card {
     width: 100%;
     height: 300px;
@@ -546,7 +550,7 @@ p {
     display: none;
     width: 30%;
     background-color: lightblue;
-   position: static;
+    position: static;
 }
 
 
@@ -675,6 +679,7 @@ p {
 .watch-cont-dn {
     display: none;
 }
+
 /* @media (max-width:412px) {
     .scroll-bar {
     position: absolute;
@@ -764,37 +769,43 @@ p {
     }
 }
 
+/* for wemen */
+.f-w-banner{
+    background-image: url(assets/images/WOMEN-HERO-BANNER-1_45bb406e-d75a-4de1-ba84-5c5e6723a7f8_2000x.webp);
+    background-size: cover;
+}
 
- /* treade or sell section  */
+/* treade or sell section  */
 
- .treade_sell_main{
+.treade_sell_main {
     width: 95%;
     /* height: 100vh; */
     /* border: 1px solid black; */
     margin: auto;
- }
+}
 
- /* .ts_cont{
+/* .ts_cont{
     
  } */
- .ts_title{
-        /* height: 30vh; */
-        /* border: 1px solid blue; */
-        padding: 10px;
-    }
+.ts_title {
+    /* height: 30vh; */
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
 
 /* .treade_steps{
     
     border: 1px solid black;
 } */
 
-.treade_steps_cont{
+.treade_steps_cont {
     /* width: 95%; */
     /* height: 100vh; */
     margin: auto;
     /* border: 1px solid black; */
 }
-.steps_cont div{
+
+.steps_cont div {
     width: 95%;
     height: 200px;
     border: 1px solid;
@@ -802,28 +813,30 @@ p {
 }
 
 /* treade steps content */
-.treade_steps_content{
+.treade_steps_content {
     width: 80%;
 
 }
-.treade_steps_content div{
-   
+
+.treade_steps_content div {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
+
 @media (min-width:768px) {
-   
-    .treade_steps_content{
-    width: 100%;
 
-}
+    .treade_steps_content {
+        width: 100%;
+
+    }
 }
 
-    /* accepted brands */
-.accepted_brands div{
-    
+/* accepted brands */
+.accepted_brands div {
+
     height: 60px;
     width: 40px;
     /* border: 1px solid black; */
@@ -837,105 +850,117 @@ p {
     position: relative;
 }
 
-.cu_main{
+.cu_main {
     height: 100vh;
 }
-.CU_cont1{
+
+.CU_cont1 {
     height: 60%;
-    background-color: black;
+    background-image: url("assets/images/OIP\ \(3\).webp");
+    background-size: cover;
 }
-.CU_cont1_info{
-    height:55% ;
-    border: 1px solid rgb(255, 0, 0);
+
+.CU_cont1_info {
+    height: 55%;
+    /* border: 1px solid rgb(255, 0, 0); */
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.form_sect{
+.form_sect {
     width: 80%;
-     border: 1px solid rgb(255, 0, 0);
-    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(254, 250, 250, 0.877);
     position: absolute;
     top: 230px;
     left: 40px;
 }
 
 @media (min-width:393px) {
-    .form_sect{
+    .form_sect {
         height: 500px;
         top: 380px;
     }
 }
 
-@media (min-width:768px){
-    .form_sect{
+@media (min-width:768px) {
+    .form_sect {
         height: 600px;
         top: 390px;
         left: 75px;
     }
-    .inputfield{
+
+    .inputfield {
         height: 40px;
     }
-    .textarea_field{
-        width:270px;
+
+    .textarea_field {
+        width: 270px;
         height: 150px;
     }
 }
-@media (min-width:1024px){
-    .form_sect{
+
+@media (min-width:1024px) {
+    .form_sect {
         width: 40%;
         height: 550px;
         top: 150px;
-        left: 810px;
+        left: 800px;
     }
-    .inputfield{
+
+    .inputfield {
         height: 40px;
     }
-    .textarea_field{
-        width:270px;
+
+    .textarea_field {
+        width: 270px;
         height: 150px;
     }
 
-    .cu_main{
+    .cu_main {
         height: auto;
     }
-    .CU_cont1_info{
+
+    .CU_cont1_info {
         width: 450px;
         height: 300px;
     }
 
-    .empty_cont{
+    .empty_cont {
         display: none;
     }
 
-    .CU_cont2{
-       width: 50% !important;
-       margin: 0;
-       padding: 0;
+    .CU_cont2 {
+        width: 50% !important;
+        margin: 0;
+        padding: 0;
     }
-    .Contact_us_details{
-    height: 200px;
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: justify;
-}
+
+    .Contact_us_details {
+        height: 200px;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+    }
 }
 
-.CU_cont2{
+.CU_cont2 {
     width: 100%;
     /* height: 100vh; */
 }
-.CU_cont2_info{
+
+.CU_cont2_info {
     width: 90%;
     /* height: 100%; */
     border: 1px solid;
-    margin:5px auto;
+    margin: 5px auto;
 }
-.Contact_us_details{
+
+.Contact_us_details {
     height: 150px;
     border: 1px solid;
     display: flex;
@@ -949,63 +974,145 @@ p {
     width: 100%;
 } */
 
-.au_back_img{
+.au_back_img {
     width: 100%;
     height: 230px;
     padding: 10px;
-    background:linear-gradient(blue,skyblue,lightblue );
+    /* background: linear-gradient(blue, skyblue, lightblue); */
+    background-image: url("assets/images/EssPro-Heirloom-Leather-Band-Watch-Vintage-Piece-Displayed-on-Vintage-Table-Featured-Image.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
-.au_info{
+
+.au_info {
     width: 59%;
-    
-    border: 1px solid black;
+    color: rgb(240, 232, 232);
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-    
+
 }
-.au_info p,.au_main_cont p{
+
+.au_info p,
+.au_main_cont p {
     margin-bottom: 0;
-    font-size: 11px;
-     text-align: justify;
+    font-size: 10px;
+    text-align: justify;
 }
 
 
-.au_main_cont h2{
-    font-size: 20px;
+.au_main_cont h2 {
+    font-size: 16px;
 }
-.au_main_cont{
+
+.au_main_cont {
     width: 100%;
-    /* height: 250px; */
-    background-color: burlywood;
+    /* height:250px; */
+    /* background-color: burlywood; */
     display: flex;
 }
 
-.au_main_cont div{
-    /* width: 50%; */
-    /* height: 100%; */
-    border: 1px solid black;
-     
-}
-.au_main_cont_img{
-    width: 100%;
-    height: 100%;
+.au_main_cont div {
+    
+    background-color: rgb(197, 199, 201);
+
 }
 
-.au_importance{
+.To_center_au_main_cont_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.au_main_cont_img {
     width: 100%;
-    
+    height: 90%;
+    background-image: url("assets/images/precision-craftsmanship-displayed-stockcake.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+@media (min-width:768px) {
+    .au_main_cont h2 {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    .au_main_cont p {
+        font-size: 15px;
+    }
+
+    .au_main_cont_row {
+        height: 250px;
+    }
+
+    .au_main_cont_img {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        background-image: url("assets/images/651-idealtek-watchmaking-curiosities-cover.webp");
+        background-size: cover;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width:1024px) {
+    /* first section */
+    .au_info {
+        width: 50%;
+        height: 80%;
+
+    }
+    .au_info_top{
+        width: 80%;
+        text-align: center !important;
+    }
+    .au_info p
+    {
+        font-size: 16px !important;
+    }
+    .Explore_button{
+        width: 50%;
+    }
+    .au_back_img {
+        width: 100%;
+        height: 280px;
+    }
+
+    /* 2nd sec */
+    .au_main_cont_row {
+        height: 300px;
+    }
+
+    .au_main_cont h2 {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+    .au_main_cont p {
+        font-size: 19px;
+    }
+}
+
+
+.au_importance {
+    width: 100%;
+
     /* height: 100vh; */
 }
-.au_importance_rows{
+
+.au_importance_rows {
     background-color: rgb(185, 239, 239);
 }
-.au_importance_rows div{
+
+.au_importance_rows div {
     /* width: 100%; */
     height: 70px;
-   
-    
+
+
 }
 
 .au_importance_itmes {
@@ -1015,67 +1122,92 @@ p {
     gap: 0;
     box-sizing: border-box;
 }
-.To_make_auitem_flex{
+
+.To_make_auitem_flex {
     display: flex;
     outline: 1px solid rgb(97, 83, 83);
 }
-.To_make_auitem_flex div h1{
-    
+
+.To_make_auitem_flex div h1 {
+
     font-size: 9px;
 }
-.To_make_auitem_flex div p{
+
+.To_make_auitem_flex div p {
     font-size: 13px;
 }
 
 @media (min-width:768px) {
-    
-    .To_make_auitem_flex{
+
+    .To_make_auitem_flex {
         flex-direction: column;
     }
-    .au_importance_rows div{
-    /* width: 100%; */
-    height: 130px;
-    margin: auto;
-   }
+
+    .au_importance_rows div {
+        /* width: 100%; */
+        height: 130px;
+        margin: auto;
+    }
 
 
 }
 
-    /* au_provides */
+/* au_provides */
 
-.au_provides{
+.au_provides {
     width: 100%;
-    
+
 }
+
 /* .au_provides_itmes{
     height: 200px;
     border: 1px solid;
 } */
-.To_make_au_provides_flex{
+.To_make_au_provides_flex {
 
-     /* height: 60px; */
+    /* height: 60px; */
     border: 1px solid rgb(189, 178, 178);
     display: flex;
     text-align: center;
     margin-bottom: 5px;
 }
 
+.To_make_au_provides_flex_down h4 {
+    font-size: 20px;
+}
 
 @media (min-width:768px) {
-    
-    .To_make_au_provides_flex{
+
+    .To_make_au_provides_flex {
         flex-direction: column;
         margin-bottom: 0 !important;
     }
-    
-    .To_make_au_provides_flex_up{
+
+    .To_make_au_provides_flex_up {
         width: 100% !important;
         height: 30%;
-        
+
     }
-    .To_make_au_provides_flex_down{
+
+    .To_make_au_provides_flex_down {
         width: 100% !important;
         height: 70%;
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    .To_make_au_provides_flex_up {
+
+        height: 35%;
+
+    }
+
+    .To_make_au_provides_flex_down {
+
+        height: 65%;
+        padding: 5px;
     }
 
 }
