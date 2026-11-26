@@ -6,81 +6,96 @@
 
 header {
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background:#111111;
+    color: #D4AF37;
     position: sticky;
     top: 0;
     z-index: 100;
     /* margin: auto; */
 
 }
-
+ 
 
 .nav_list {
     width: 15vh;
     height: 50vh;
-    background-color: red;
+    background-color:#222222;
+    /* color:#D4AF37; */
     display: none;
     /* list-style: none; */
     padding: 10px;
+    /* margin-bottom: 10px; */
     position: absolute;
     top: 30px;
     left: -5px;
 }
 
 li {
+    
     margin-bottom: 10px;
 }
 
 .main_nav_list-2 {
+    color:#D4AF37;
     display: none;
 }
 
 .main_nav_list {
     /* margin: auto; */
-    background-color: red;
+    background-color:#222222;
     position: relative;
-
+    color:#D4AF37;
 }
 
 .main_nav_list:hover .nav_list {
     display: inline-block;
+     color:#D4AF37;
 }
 
 a {
     text-decoration: none;
+    /* color:white; */
+     color:#D4AF37;
 }
 
 li:hover a {
     text-decoration: underline;
+     color:#D4AF37;
 }
 
 #nav_icon {
     text-align: center;
     font-size: 30px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .sec2 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 10px;
+    /* background-color: #FFFFFF; */
 }
 
 
 input {
     width: 100%;
     height: 30px;
-    border-radius: 8px;
+    border: 1px solid #D4AF37;
+    border-radius: 0px;
     outline: 1px solid navy;
+    background-color: #FFFFFF;
 }
-
+.header-form_inp ::placeholder{
+     color: #6c757d;
+}
 button {
     display: none;
 }
 
 .sec3 {
     width: 40%;
-    border: 1px solid rgb(76, 0, 255);
-    background-color: rgba(255, 235, 205, 0.541);
+    border: 1px solid rgb(199, 194, 210);
+    background-color:#222222;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -94,10 +109,13 @@ button {
 .account:hover .s1 {
     display: inline-block;
     transition: 1s 0.3s ease;
+    color: white;
 }
 
 
-@media (min-width:768px) {}
+@media (min-width:768px) {
+
+}
 
 @media (min-width:1024px) {
     .main_nav_list {
@@ -106,12 +124,13 @@ button {
 
     .main_nav_list-2 {
         display: inline-block;
-        background-color: rgb(63, 63, 68);
-        color: white;
+        background-color: #222222;
+        color:white;
 
     }
 
     .nav_list-2 {
+        
         display: flex;
         align-items: center;
         list-style: none;
@@ -121,6 +140,7 @@ button {
     .nav_list-2 li {
         margin: auto;
         margin-top: 10px;
+        color:#D4AF37;
     }
 
     input {
@@ -132,7 +152,11 @@ button {
         width: 70px;
         height: 35px;
     }
-
+    .btn-primary{
+    background:#D4AF37;
+    color:black;
+    border:none;
+}
 }
 
 /* banner poster */
@@ -482,7 +506,8 @@ p {
 .footer {
     padding: 5px;
     width: 100%;
-    background: linear-gradient(to top, blue, skyblue);
+    background:#111111;
+    color:gold;
     /* display: flex; */
     gap: 5px;
 }
@@ -510,7 +535,7 @@ p {
 @media (min-width:768px) {
     .footer {
         width: 100%;
-        background: linear-gradient(to top, blue, skyblue);
+        background:#111111;
         position: sticky;
         display: flex;
 
@@ -549,7 +574,7 @@ p {
 .scroll-bar {
     display: none;
     width: 30%;
-    background-color: lightblue;
+    background-color: rgb(247, 249, 250);
     position: static;
 }
 
@@ -557,7 +582,7 @@ p {
 .f-m-right {
     flex: 1;
     height: 100vh;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(231, 231, 230);
 }
 
 .sort-by {
@@ -770,7 +795,7 @@ p {
 }
 
 /* for wemen */
-.f-w-banner{
+.f-w-banner {
     background-image: url(assets/images/WOMEN-HERO-BANNER-1_45bb406e-d75a-4de1-ba84-5c5e6723a7f8_2000x.webp);
     background-size: cover;
 }
@@ -1015,7 +1040,7 @@ p {
 }
 
 .au_main_cont div {
-    
+
     background-color: rgb(197, 199, 201);
 
 }
@@ -1060,23 +1085,27 @@ p {
 }
 
 @media (min-width:1024px) {
+
     /* first section */
     .au_info {
         width: 50%;
         height: 80%;
 
     }
-    .au_info_top{
+
+    .au_info_top {
         width: 80%;
         text-align: center !important;
     }
-    .au_info p
-    {
+
+    .au_info p {
         font-size: 16px !important;
     }
-    .Explore_button{
+
+    .Explore_button {
         width: 50%;
     }
+
     .au_back_img {
         width: 100%;
         height: 280px;
@@ -1211,3 +1240,102 @@ p {
     }
 
 }
+
+/* login page */
+.login_page {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background: linear-gradient( white,rgb(16, 32, 79));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lp_border_section {
+    width: 95%;
+    height: 75%;
+    /* border: 1px solid black; */
+}
+
+.lp_img_sec {
+    display: none;
+}
+
+.form_field {
+    border-top: 2px dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.input_field {
+    width: 95%;
+    border-radius: 0;
+    outline: 0;
+
+}
+
+.account_label {
+    font-size: 20px;
+    padding: 0;
+
+}
+
+.submit_buttons {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+
+
+    .lp_form_sec {
+        width: 90%;
+        height: 80%;
+        border: 1px solid;
+        padding: 5px;
+        margin: auto;
+    }
+
+    .input_field {
+        width: 65%;
+
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .lp_border_section {
+        display: flex;
+        width: 80%;
+        
+        gap: 15px;
+    }
+
+    .lp_img_sec {
+        display: inline-block;
+        width: 50%;
+        border: 1px solid black;
+        /* background-image: url("assets/images/048-1.png"); */
+        background-size: cover;
+    }
+
+    .lp_form_sec {
+        width: 50%;
+        height: 100%;
+        border: 1px solid;
+        padding: 5px;
+    }
+
+    .input_field {
+        width: 75%;
+
+    }
+}
+
